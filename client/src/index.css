@@ -212,10 +212,36 @@ section {
   section {
     padding: 60px 0;
   }
+  
+  .container {
+    padding: 0 15px;
+  }
 }
 
 @media (max-width: 480px) {
   .section-title {
     font-size: 1.75rem;
+  }
+  
+  .container {
+    padding: 0 12px;
+  }
+  
+  section {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .container {
+    padding: 0 10px;
+  }
+  
+  section {
+    padding: 40px 0;
   }
 }
