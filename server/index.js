@@ -52,9 +52,9 @@ app.get('/api/projects', (req, res) => {
   const projects = [
     {
       id: 1,
-      title: "SILENTSIREN - Smart Personal Safety System",
-      description: "AI-based mobile safety platform providing discreet emergency alerts for vulnerable users. Features voice keywords, gesture detection, and abnormal behavior analysis.",
-      tech: ["AI/ML", "GPS Tracking", "Mobile Development", "Edge AI"],
+      title: "SilentSiren – Women's Safety Alert System",
+      description: "An innovative women's safety application designed to provide immediate assistance during emergency situations. The system enables users to send real-time emergency alerts along with their live location to predefined contacts with a single action. Focuses on ensuring personal safety through quick communication, location tracking, and emergency response features. Key Features: One-click SOS emergency alert system, Real-time GPS location sharing, Instant notification to emergency contacts, User-friendly and responsive interface, Secure user registration and authentication, Fast and reliable emergency communication. My Contribution: Designed and developed the user interface, Implemented emergency alert and location-sharing functionalities, Integrated database operations for user management, Tested and optimized application performance. Outcome: The project demonstrates how technology can be leveraged to enhance personal safety and provide rapid assistance during critical situations.",
+      tech: ["HTML", "CSS", "JavaScript", "Java", "MySQL", "Android Studio"],
       image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=600",
       live: "#",
       github: "#"
